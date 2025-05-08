@@ -1,11 +1,13 @@
 import streamlit as st
 import firebase_admin
 from firebase_admin import credentials, auth
+import json
 
 def initialize_firebase():
     """Initialize Firebase Admin SDK."""
     if not firebase_admin._apps:
-        cred = credentials.Certificate(st.secrets["FIRESON"])
+        cred_info=json.loads(st.secrets["FIRESON"])
+        cred = credentials.Certificate(cred_info)
         firebase_admin.initialize_app(cred)
 
 def app():
