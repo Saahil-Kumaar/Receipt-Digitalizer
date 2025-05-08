@@ -5,7 +5,7 @@ from firebase_admin import credentials, auth
 def initialize_firebase():
     """Initialize Firebase Admin SDK."""
     if not firebase_admin._apps:
-        cred = credentials.Certificate('receipt-digitalizer-firebase-adminsdk-fbsvc-ec35260837.json')
+        cred = credentials.Certificate(st.secrets["FIREBASE_CREDENTIALS_JSON"])
         firebase_admin.initialize_app(cred)
 
 def app():
