@@ -164,7 +164,7 @@ def process_receipt_image(image):
 def initialize_firebase():
     """Initialize Firebase Admin SDK."""
     if not firebase_admin._apps:
-        cred_info=json.loads(st.secrets["FIRESON"])
+        cred_info=st.secrets["firebase"]['credentials']
         cred = credentials.Certificate(cred_info)
         firebase_admin.initialize_app(cred)
 
