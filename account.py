@@ -6,7 +6,7 @@ import json
 def initialize_firebase():
     """Initialize Firebase Admin SDK."""
     if not firebase_admin._apps:
-        cred_info = st.secrets["firebase"]['credentials']
+        cred_info = st.secrets['credentials']
         cred = credentials.Certificate(cred_info)
         firebase_admin.initialize_app(cred)
 
