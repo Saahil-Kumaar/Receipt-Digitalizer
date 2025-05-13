@@ -43,7 +43,7 @@ class MultiApp:
         with st.sidebar:        
             app = option_menu(
                 menu_title='Menu',
-                options=['Home','Account','Your Posts','about'],
+                options=['Home','Account','Your Bills','About'],
                 icons=['house-fill','person-circle','chat-fill','info-circle-fill'],
                 menu_icon='bi-box',
                 default_index=1,
@@ -60,9 +60,9 @@ class MultiApp:
             home.app()
         if app == "Account":
             account.app()           
-        if app == 'Your Posts':
+        if app == 'Your Bills':
             your_posts.app()
-        if app == 'about':
+        if app == 'About':
             about.app()    
             
              
