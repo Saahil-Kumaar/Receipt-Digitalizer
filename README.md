@@ -52,7 +52,6 @@ Receipt-Digitalizer/
 ├── home.py               # Landing page
 ├── process.py            # Receipt text processing (OCR)
 ├── your_posts.py         # View uploaded receipts
-│
 ├── requirements.txt      # Python dependencies
 ├── packages.txt          # Additional package info
 └── .streamlit/           # Streamlit config
