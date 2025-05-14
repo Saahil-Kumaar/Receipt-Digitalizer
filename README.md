@@ -1,4 +1,4 @@
-# 🧾 Receipt Digitalizer
+# 🧾 Receipt-Digitalizer
 
 A **Streamlit-based web application** for digitizing your paper receipts, extracting key information using OCR, and organizing your expenses—all in one place!
 
@@ -6,7 +6,7 @@ A **Streamlit-based web application** for digitizing your paper receipts, extrac
 
 ## ✨ Features
 
-* 📸 **Upload Receipts** – Upload scanned images of your receipts.
+* 📸 **Upload Receipts** – Upload scanned images of your receipts or upload then via WebCam.
 * 🤖 **OCR Processing** – Automatically extract text such as date, amount, and vendor using OCR.
 * 📊 **Expense Tracking** – Organize and view your past receipts in one dashboard.
 * 👤 **User Accounts** – Log in and manage your own set of receipts securely.
@@ -62,7 +62,7 @@ Receipt-Digitalizer/
 ## 📸 How It Works
 
 1. 🧾 **Upload** an image of your receipt.
-2. 🤖 The app processes it using OCR (EasyOCR or similar).
+2. 🤖 The app processes it using OCR (Pytesseract or similar).
 3. 📤 Extracted data is displayed and saved to your account.
 4. 📚 **Manage** all your receipts under "Your Posts."
 
@@ -97,9 +97,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 ## 📬 Contact
 
-* ✉️ Email: [sk7593277@gmail.com](mailto:sk7593277@gmail.com)
+* ✉️ Email: [sk7593277@gmail.com](mailto:sahill.kumaarr@gmail.com)
 * 🧑‍💻 GitHub: [Saahil-Kumaar](https://github.com/Saahil-Kumaar)
-
----
-
-Let me know if you'd like this saved as a file or if you'd like a dark-mode compatible version for GitHub's dark theme.
