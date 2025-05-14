@@ -1,7 +1,3 @@
-Sure! Here's a more visually appealing and well-structured version of your `README.md` file. This version uses emojis, markdown styling, and formatting for better readability and aesthetics.
-
----
-
 # 🧾 Receipt Digitalizer
 
 A **Streamlit-based web application** for digitizing your paper receipts, extracting key information using OCR, and organizing your expenses—all in one place!
@@ -77,7 +73,7 @@ Receipt-Digitalizer/
 
 * [Streamlit](https://streamlit.io/)
 * [Python](https://www.python.org/)
-* [EasyOCR](https://github.com/JaidedAI/EasyOCR)
+* [Pytesseract](https://pypi.org/project/pytesseract/)
 * [Pandas](https://pandas.pydata.org/)
 * [Pillow](https://python-pillow.org/)
 
