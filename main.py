@@ -7,7 +7,7 @@ load_dotenv()
 import home, account, your_posts, about
 
 
-
+#this is the code
 st.set_page_config(
         page_title="Receipt-Digitalizer",
 )
